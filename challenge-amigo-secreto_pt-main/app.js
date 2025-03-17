@@ -17,7 +17,7 @@
  }
 
 
-  funtion atualizarListaAmigos() {
+  function atualizarListaAmigos() {
     const lista = document.getElementById('listaAmigos');
     lista.innerHTML = '';
     amigos.forEach((amigo) => {
